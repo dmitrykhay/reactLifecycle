@@ -1,0 +1,68 @@
+.crud {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.crud-header {
+	display: flex;
+	align-items: center;
+}
+
+.crud-btn-update {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-left: 10px;
+	background-color: green;
+	cursor: pointer;
+}
+
+.crud-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.crud-content-item {
+	position: relative;
+	width: 200px;
+	padding: 5px;
+	border: 1px solid black;
+	margin-bottom: 30px;
+}
+
+.crud-content-item-btn {
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-left: 10px;
+	background-color: red;
+	cursor: pointer;
+}
+
+.crud-new {
+	position: relative;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.crud-new-btn {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-left: 10px;
+	background-color: mediumspringgreen;
+	cursor: pointer;
+}
+
+.crud-new-text {
+	height: 100px;
+	position: relative;
+}

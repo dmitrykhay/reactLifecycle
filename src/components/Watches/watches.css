@@ -1,0 +1,73 @@
+.watches-form {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.input-wrap {
+	display: flex;
+	flex-direction: column;
+	margin-right: 10px;
+}
+
+.watches-btn {
+	align-self: flex-end;
+}
+
+.watches-item {
+	margin-right: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.watch{
+	width: 70px;
+	height: 70px;
+	border: 1px solid black;
+}
+
+.watches{
+	display: flex;
+}
+
+.watches-item-btn {
+	background-color: white;
+	border-radius: 50%;
+	cursor: pointer;
+	align-self: last baseline;
+}
+
+.clock {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  position: relative;
+}
+
+.hour-hand, .minute-hand, .second-hand {
+  position: absolute;
+  background-color: #333;
+  transform-origin: bottom center;
+}
+
+.hour-hand {
+  width: 6px;
+  height: 50px;
+  top: 50px;
+  left: 97px;
+}
+
+.minute-hand {
+  width: 4px;
+  height: 70px;
+  top: 30px;
+  left: 98px;
+}
+
+.second-hand {
+  width: 2px;
+  height: 80px;
+  top: 20px;
+  left: 99px;
+}
+

@@ -1,0 +1,37 @@
+.chat {
+	width: 500px;
+	margin: auto;
+}
+
+.chat-messages {
+	max-height: 70vh;
+	overflow-y: auto;
+}
+
+.chat-message {
+	max-width: 300px;
+  width: fit-content;
+	text-align: center;
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.my {
+	background-color: green;
+	margin-left: auto;
+}
+
+.other {
+	background-color: bisque;
+	margin-right: auto;
+}
+
+.chat-input-text {
+	width: 90%;
+}
+
+.chat-input-btn {
+	width: 8%;
+	cursor: pointer;
+}

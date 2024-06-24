@@ -1,0 +1,14 @@
+.nav-ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-ul-li {
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.wrap {
+	text-align: center;
+}
